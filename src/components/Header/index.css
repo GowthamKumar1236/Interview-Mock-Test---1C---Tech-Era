@@ -1,0 +1,15 @@
+.header-container {
+  background-color: #f1f5f9;
+  padding-left: 68px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.website-logo {
+  width: 26%;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 14%;
+  }
+}

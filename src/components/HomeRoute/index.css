@@ -1,0 +1,51 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.courses-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 38px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.failure-img {
+  width: 40%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-btn {
+width: 70px;
+  height: 30px;
+  background-color: #4656a1;
+  color: #ffffff;
+  border: 1px solid #4656a1;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}

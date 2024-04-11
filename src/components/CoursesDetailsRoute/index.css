@@ -1,0 +1,89 @@
+.courses-details-bg-container {
+  background-color: #ffffff;
+}
+
+.courses-details-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 68px;
+  box-shadow: 2px 5px 5px 5px #e8e8e8;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .courses-details-container {
+    flex-direction: column;
+  }
+}
+
+.details-container {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+
+.courses-img {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .courses-img {
+    width: 100%;
+  }
+}
+
+.course-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 768px) {
+  .course-heading {
+    font-size: 20px;
+  }
+}
+
+.course-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+  line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .course-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.failure-img {
+  width: 40%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-btn {
+  width: 70px;
+  height: 30px;
+  background-color: #4656a1;
+  color: #ffffff;
+  border: 1px solid #4656a1;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}

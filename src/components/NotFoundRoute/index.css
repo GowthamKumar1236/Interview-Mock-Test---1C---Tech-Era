@@ -1,0 +1,34 @@
+.not-found-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.not-found-img {
+  width: 400px;
+}
+
+.not-found-heading {
+  height: 24px;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+.not-found-description {
+  height: 72px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
